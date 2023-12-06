@@ -1,5 +1,6 @@
-##DMGY 6063 Final Project: DJ Table Set
-##By: Zaria Oliver
+
+## DMGY 6063 Final Project: DJ Table Set
+## By: Zaria Oliver
 
 
 ### Milestone 1 - Due 11/29/23
