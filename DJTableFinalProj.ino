@@ -1,9 +1,35 @@
+// set constants for buttons
+const int Button1 = 2;
+const int Button2 = 3;
+
+bool audioState = false;
+
 void setup() {
-  // put your setup code here, to run once:
-;
+  pinMode(Button1, INPUT);
+  pinMode(Button2, INPUT);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-;
+
+//if (digitalRead(Button1) == LOW) {
+    //if (!audioState) {
+     // startSong();
+      //audioState = true
+
+    //}
+
+//if (digitalRead(Button2) == LOW) {
+   // if (audioState) {
+     // pauseSong();
+     // audioState = false;
+  //  }
+
+int valueB1 = digitalRead(Button1);
+int valueB2 = digitalRead(Button2);
+
+Serial.println(String(valueB1) + " " + valueB2);
+delay(10);
+
 }
+
+//function startSong() {
