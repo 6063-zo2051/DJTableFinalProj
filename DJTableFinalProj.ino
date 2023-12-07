@@ -1,12 +1,12 @@
 // set constants for buttons
-const int Button1 = 2;
-const int Button2 = 3;
+const int But1 = 2;
+const int But2 = 4;
 
-bool audioState = false;
+// bool audioState = false;
 
 void setup() {
-  pinMode(Button1, INPUT);
-  pinMode(Button2, INPUT);
+  pinMode(But1, INPUT);
+  pinMode(But2, INPUT);
 }
 
 void loop() {
@@ -24,10 +24,10 @@ void loop() {
      // audioState = false;
   //  }
 
-int valueB1 = digitalRead(Button1);
-int valueB2 = digitalRead(Button2);
+int valB1 = digitalRead(But1);
+int valB2 = digitalRead(But2);
 
-Serial.println(String(valueB1) + " " + valueB2);
+Serial.println(String(valB1) + " " + valB2);
 delay(10);
 
 }
