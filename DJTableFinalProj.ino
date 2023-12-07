@@ -7,6 +7,7 @@ const int But2 = 4;
 void setup() {
   pinMode(But1, INPUT);
   pinMode(But2, INPUT);
+  Serial.begin(9600);
 }
 
 void loop() {
